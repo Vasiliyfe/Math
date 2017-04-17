@@ -32,7 +32,7 @@
     </subcategory>
     <subcategory>
 	    <subcategory_id> 3 </subcategory_id>
-	    <subcategory_name> Округление с недостатком </subcategory_name>
+	    <subcategory_name> Округление </subcategory_name>
 	    <category_id> 2 </category_id> 	
 </subcategory>
      <category>
@@ -56,6 +56,61 @@
 	    <subcategory_id> 5 </subcategory_id>
 	    <subcategory_name> Действия с формулами </subcategory_name>
 	    <category_id>  4 </category_id> 	
+    </subcategory>
+    <category>
+	    <category_id> 5</category_id>
+	    <category_name> Вычисления и преобразования </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 6 </subcategory_id>
+	    <subcategory_name> Преобразование алгебраических и буквенных выражений </subcategory_name>
+	    <category_id>  5 </category_id> 	
+    </subcategory>
+    <category>
+	    <category_id> 6</category_id>
+	    <category_name> Простейшие задачи </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 7 </subcategory_id>
+	    <subcategory_name> Разные задачи </subcategory_name>
+	    <category_id>  6 </category_id> 	
+    </subcategory>
+    <category>
+	    <category_id> 7</category_id>
+	    <category_name> Простейшие уравнения </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 8 </subcategory_id>
+	    <subcategory_name> Линейные и квадратные уравнения </subcategory_name>
+	    <category_id>  7 </category_id> 	
+    </subcategory>
+    <category>
+	    <category_id> 8</category_id>
+	    <category_name> Прикладная геометрия </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 9 </subcategory_id>
+	    <subcategory_name> Многоугольники </subcategory_name>
+	    <category_id>  8 </category_id> 	
+    </subcategory>
+    <category>
+	    <category_id> 9</category_id>
+	    <category_name> Размеры и еденицы измерения </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 10 </subcategory_id>
+	    <subcategory_name>  Размеры и еденицы измерения  </subcategory_name>
+	    <category_id> 9 </category_id> 	
     </subcategory>
     <task>
 	    <task_id> 2000  </task_id> 
@@ -494,5 +549,415 @@
 	    <task_id> 2019 </task_id>
     </solution>
 	
+      <task>
+	    <task_id> 2020 </task_id> 
+	    <task_name>  Вычисления и преобразования  </task_name>
+	    <task_text> 
+            <p align="center">  Найдите :</p>
+                \[\begin{matrix}
+                \ cos(x)\\
+                \end{matrix} \]   
+           <p align="center"> , если:</p>
+                \[\begin{matrix}
+                \ sin(x) = - 0,8\\
+                \end{matrix} \]   
+            <p align="center"> и :</p>
+		\[\begin{matrix}
+                \ 180{\circ} #&60 x #&60 270{\circ} \\
+                \end{matrix} \] 
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 6 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2020</solution_id>
+	    <answer> -0.6 </answer>
+	    <task_id> 2020 </task_id>
+    </solution>
 	
+	
+      <task>
+	    <task_id> 2021 </task_id> 
+	    <task_name>  Вычисления и преобразования  </task_name>
+	    <task_text> 
+            <p align="center"> Найдите значение выражения :</p>
+                \[\begin{matrix}
+                \ 6*(p*(5*x) - 5*p*(x + 3))\\
+                \end{matrix} \]   
+	     <p align="center"> , если :</p>
+                \[\begin{matrix}
+                \ p(x) = x + 5 \\
+                \end{matrix} \]  
+          
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 6 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2021</solution_id>
+	    <answer> -210 </answer>
+	    <task_id> 2021 </task_id>
+    </solution>
+	
+	 <task>
+	    <task_id> 2022 </task_id> 
+	    <task_name>  Вычисления и преобразования  </task_name>
+	    <task_text> 
+            <p align="center"> Найдите значение выражения  :</p>
+                \[\begin{matrix}
+                \((5*x - 4*y)^2 - (5*x + 4*y)^2) : (-16*x*y) \\
+                \end{matrix} \]      
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 6 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2022</solution_id>
+	    <answer> 5 </answer>
+	    <task_id> 2022 </task_id>
+    </solution>
+	
+       <task>
+	    <task_id> 2023 </task_id> 
+	    <task_name>  Вычисления и преобразования  </task_name>
+	    <task_text> 
+            <p align="center">   :</p>
+                \[\begin{matrix}
+                \{{(11*a)^2 - 11*a}\over{11*a^2 -a}} \\
+                \end{matrix} \]      
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 6 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2023</solution_id>
+	    <answer> 11 </answer>
+	    <task_id> 2023 </task_id>
+    </solution>
+	
+	  <task>
+	    <task_id> 2024 </task_id> 
+	    <task_name>  Вычисления и преобразования  </task_name>
+	    <task_text> 
+            <p align="center"> Найдите зна­че­ние выражения    :</p>
+                \[\begin{matrix}
+                \ 7*p(a) - 21*a - 9 \\
+                \end{matrix} \]     
+	     <p align="center"> , если  :</p>
+                \[\begin{matrix}
+                \p(a) = 3*a +4 \\
+                \end{matrix} \]     
+	   
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 6 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2024</solution_id>
+	    <answer> 19 </answer>
+	    <task_id> 2024 </task_id>
+    </solution>
+	
+         <task>
+	    <task_id> 2025 </task_id> 
+	    <task_name> Простейшие задачи  </task_name>
+	    <task_text> 
+            <p align="center"> Для ре­мон­та тре­бу­ет­ся ку­пить 23 лампочки. Каж­дая лам­поч­ка стоит 37 рублей. 
+		    Сколь­ко руб­лей сдачи по­лу­чит покупатель, дав­ший кас­си­ру 1000 руб­лей за такую покупку?:</p>     
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 7 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2025</solution_id>
+	    <answer> 149 </answer>
+	    <task_id> 2025 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2026 </task_id> 
+	    <task_name> Простейшие задачи  </task_name>
+	    <task_text> 
+            <p align="center"> Бегун пробежал 300 м за 30 секунд. Найдите среднюю скорость бегуна на дистанции. 
+		    Ответ дайте в километрах в час:</p>     
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 7 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2026</solution_id>
+	    <answer> 36 </answer>
+	    <task_id> 2026 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2027 </task_id> 
+	    <task_name> Простейшие задачи  </task_name>
+	    <task_text> 
+            <p align="center"> Выпускники 11а покупают букеты цветов для последнего звонка: из 3 роз каждому учителю и из 7 роз классному руководителю и директору.
+		    Они собираются подарить букеты 17 учителям (включая директора и классного руководителя), 
+		    розы покупаются по оптовой цене 35 рублей за штуку.
+		    Сколько рублей стоят все розы?:</p>     
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 7 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2027</solution_id>
+	    <answer> 2065 </answer>
+	    <task_id> 2027 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2028 </task_id> 
+	    <task_name> Простейшие задачи  </task_name>
+	    <task_text> 
+            <p align="center">В уни­вер­си­тет­скую биб­лио­те­ку при­вез­ли новые учеб­ни­ки по геометрии для 3 курсов,
+		    по 360 штук для каж­до­го курса. Все книги оди­на­ко­вы по размеру. В книж­ном шкафу 9 полок, 
+		    на каж­дой полке по­ме­ща­ет­ся 25 учебников.
+		    Сколь­ко шка­фов можно пол­но­стью за­пол­нить но­вы­ми учебниками? :</p>     
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 7 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2028 </solution_id>
+	    <answer> 4 </answer>
+	    <task_id> 2028 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2029 </task_id> 
+	    <task_name> Простейшие задачи  </task_name>
+	    <task_text> 
+            <p align="center"> Принтер пе­ча­та­ет одну стра­ни­цу за 14 секунд.
+		    Сколь­ко страниц можно на­пе­ча­тать на этом прин­те­ре за 7 минут? :</p>     
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 7 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2029 </solution_id>
+	    <answer> 30 </answer>
+	    <task_id> 2029 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2030 </task_id> 
+	    <task_name> Простейшие уравнения  </task_name>
+	    <task_text> 
+            <p align="center"> Решите уравнение  :</p>   
+		\[\begin{matrix}
+                \ x^2 + 9 = (x + 9) ^2 \\
+                \end{matrix} \]   
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 8 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2030 </solution_id>
+	    <answer> -4 </answer>
+	    <task_id> 2030 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2031 </task_id> 
+	    <task_name>  Простейшие уравнения  </task_name>
+	    <task_text> 
+            <p align="center"> Найдите корень уравнения  :</p>   
+		\[\begin{matrix}
+                \ 2 + 9*x = 4*x +3 \\
+                \end{matrix} \]   
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 8 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2031 </solution_id>
+	    <answer> 0.2 </answer>
+	    <task_id> 2031 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2032 </task_id> 
+	    <task_name>  Простейшие уравнения </task_name>
+	    <task_text> 
+            <p align="center"> Найдите корень уравнения  :</p>   
+		\[\begin{matrix}
+                \ x^2 - 9 = (x + 3)^2\\
+                \end{matrix} \]   
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 8 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2032 </solution_id>
+	    <answer> -3 </answer>
+	    <task_id> 2032 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2033 </task_id> 
+	    <task_name>  Простейшие уравнения </task_name>
+	    <task_text> 
+            <p align="center"> Найдите корень уравнения :</p>   
+		\[\begin{matrix}
+                \ 4*(-7 - x) - 5*x = 8 \\
+                \end{matrix} \]   
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 8 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2033 </solution_id>
+	    <answer> -4 </answer>
+	    <task_id> 2033 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2034 </task_id> 
+	    <task_name>  Простейшие уравнения </task_name>
+	    <task_text> 
+            <p align="center"> Найдите корень уравнения :</p>   
+		\[\begin{matrix}
+                \ (5*x - 3)^2 = (5*x + 13)^2 \\
+                \end{matrix} \]   
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 8 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2034 </solution_id>
+	    <answer> -1 </answer>
+	    <task_id> 2034 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2035 </task_id> 
+	    <task_name>  Прикладная геометрия </task_name>
+	    <task_text> 
+            <p align="center"> Участок земли имеет прямоугольную форму.
+		    Стороны прямоугольника равны 25 м и 50 м. Найдите длину забора, которым нужно огородить участок, предусмотрев проезд шириной 3 м.
+		    Ответ дайте в метрах. :</p>   
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 9 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2035 </solution_id>
+	    <answer> 147 </answer>
+	    <task_id> 2035 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2036 </task_id> 
+	    <task_name>  Прикладная геометрия </task_name>
+	    <task_text> 
+            <p align="center"> Дач­ный уча­сток имеет форму пря­мо­уголь­ни­ка со сто­ро­на­ми 25 мет­ров и 30 мет­ров. 
+		    Хо­зя­ин пла­ни­ру­ет об­не­сти его за­бо­ром и раз­де­лить таким же за­бо­ром на две части, 
+		    одна из ко­то­рых имеет форму квад­ра­та. Най­ди­те общую длину за­бо­ра в мет­рах.  :</p>   
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 9 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2036 </solution_id>
+	    <answer> 135 </answer>
+	    <task_id> 2036 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2037 </task_id> 
+	    <task_name>  Прикладная геометрия </task_name>
+	    <task_text> 
+            <p align="center"> Строители огораживают место для проведения работ забором. 
+		    Забор имеет форму прямоугольника со сторонами 18 м и 16 м. 
+		    Причём необходимо оставить проёмы в заборе для проезда машин.
+		    Проездов четыре, каждый шириной 2 м. Найдите общую длину забора.  :</p>   
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 9 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2037 </solution_id>
+	    <answer> 60 </answer>
+	    <task_id> 2037 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2038 </task_id> 
+	    <task_name>  Прикладная геометрия </task_name>
+	    <task_text> 
+            <p align="center"> На каком рас­сто­я­нии (в метрах) от фо­на­ря стоит че­ло­век ростом 1,6 м,
+		    если длина его тени равна 8 м, вы­со­та фонаря 5 м?  :</p>   
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 9 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2038 </solution_id>
+	    <answer> 17 </answer>
+	    <task_id> 2038 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2039 </task_id> 
+	    <task_name>  Прикладная геометрия </task_name>
+	    <task_text> 
+            <p align="center"> Электрику ро­стом 1,8 метра нужно по­ме­нять лампочку, 
+		    закреплённую на стене дома на вы­со­те 4,2 м.
+		    Для этого у него есть лест­ни­ца дли­ной 3 метра.
+		    На каком наи­боль­шем рас­сто­я­нии от стены дол­жен быть уста­нов­лен ниж­ний конец лестницы,
+		    чтобы с по­след­ней сту­пень­ки элек­трик до­тя­нул­ся до лампочки? Ответ за­пи­ши­те в метрах. :</p>   
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 9 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2039 </solution_id>
+	    <answer> 1.8 </answer>
+	    <task_id> 2039 </task_id>
+    </solution>
+	
+
 </xml>
